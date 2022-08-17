@@ -1,0 +1,225 @@
+@charset "UTF-8";
+html {
+  scroll-behavior: smooth;
+}
+
+::-moz-selection {
+  background: #515e63;
+  color: #fff;
+}
+
+::selection {
+  background: #515e63;
+  color: #fff;
+}
+
+@font-face {
+  font-family: 'MyFont';
+  src: url(../font/Montserrat-VariableFont_wght.ttf);
+}
+
+body {
+  font-family: MyFont, "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+  background-color: #f3efd0;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 50;
+}
+
+.header_menu {
+  background-color: rgba(87, 131, 123, 0.7);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header_menu nav {
+  margin-left: auto;
+  margin-right: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header_menu nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+
+.header_menu nav ul li a {
+  display: block;
+  padding: 1.5rem 1rem;
+  text-decoration: none;
+  margin-right: 0;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.header_menu nav ul li a:hover {
+  background-color: #515e63;
+  color: #fefefe;
+}
+
+.header_menu nav ul :nth-last-child(1) {
+  margin-right: 20px;
+}
+
+.header_menu nav .header_column {
+  margin-left: 20px;
+  height: 5vh;
+}
+
+.about_container {
+  height: 100vh;
+  position: relative;
+  text-align: center;
+}
+
+.about_container .about_message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+}
+
+.about_container .about_message h2 {
+  font-size: 45px;
+}
+
+.about_container .about_message p {
+  word-break: break-all;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+.service_container {
+  height: 100vh;
+  text-align: center;
+}
+
+.service_container .service_message h2 {
+  font-size: 45px;
+}
+
+.service_container .service_box .service_data {
+  background-color: #c9d8b6;
+  display: inline-block;
+  width: 25%;
+  height: auto;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.service_container .service_box .service_data a .img_box {
+  background: #000;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.service_container .service_box .service_data a .img_box img {
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  width: 100%;
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
+.service_container .service_box .service_data a .img_box img:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+  opacity: 0.6;
+}
+
+.service_container .service_box .service_data .service_content h3 {
+  margin: 10px 5px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.service_container .service_box .service_data .link_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 2px;
+}
+
+.service_container .service_box .service_data .link_box .link_button {
+  text-decoration: none;
+  position: relative;
+  padding: 2px 5px;
+  margin: 5px 5px;
+  text-align: center;
+  -webkit-transition: ease .3s;
+  transition: ease .3s;
+  font-weight: bold;
+}
+
+.service_container .service_box .service_data .link_box .under_line:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(173, 173, 173, 0.5);
+  width: 100%;
+  height: 100%;
+  -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.02, 0.94, 0.57, 0.96) 0s;
+  transition: -webkit-transform 0.5s cubic-bezier(0.02, 0.94, 0.57, 0.96) 0s;
+  transition: transform 0.5s cubic-bezier(0.02, 0.94, 0.57, 0.96) 0s;
+  transition: transform 0.5s cubic-bezier(0.02, 0.94, 0.57, 0.96) 0s, -webkit-transform 0.5s cubic-bezier(0.02, 0.94, 0.57, 0.96) 0s;
+  -webkit-transform: scale(0, 1);
+          transform: scale(0, 1);
+  -webkit-transform-origin: right top;
+          transform-origin: right top;
+}
+
+.service_container .service_box .service_data .link_box .under_line:hover:before {
+  -webkit-transform-origin: left top;
+          transform-origin: left top;
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+}
+
+.contact_container {
+  height: 100vh;
+  position: relative;
+  text-align: center;
+}
+
+.contact_container .contact_message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+}
+
+.contact_container .contact_message h2 {
+  font-size: 45px;
+}
+
+.contact_container .contact_message p {
+  word-break: break-all;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+/*# sourceMappingURL=style.css.map */
