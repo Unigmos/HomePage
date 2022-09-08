@@ -40,6 +40,7 @@ header{
             margin: 0;
             li{
                 a{
+                    color: #000;
                     display: block;
                     padding: 1.5rem 1rem;
                     text-decoration: none;
@@ -62,6 +63,41 @@ header{
     }
 }
 
+.top_container{
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    .top_title{
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        h2{
+            font-size: 35px;
+        }
+    }
+    .top_image{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        img{
+            border-radius: 50%;
+            filter: brightness(95%);
+            width: 200px;
+            height: auto;
+        }
+    }
+    .top_message{
+        font-size: 16px;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        text-align: left;
+    }
+}
+
 .about_container{
     height: 100vh;
     position: relative;
@@ -76,10 +112,10 @@ header{
         }
         p{
             word-break: break-all;
-            max-width: 70%;
             margin-left: auto;
             margin-right: auto;
-            font-size: 20px;
+            text-align: left;
+            font-size: 16px;
         }
     }
 }
@@ -93,21 +129,15 @@ header{
         }
     }
     .service_box{
-        //background-color: beige;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         grid-auto-rows: 1fr;
         grid-gap: 1em;
         padding: 1em;
+        max-width: 900px;
+        margin-right: auto;
+        margin-left: auto;
         .service_data{
-            //background-color: #c9d8b6;
-            /*
-            display: inline-block;
-            width: 25%;
-            height: auto;
-            overflow: hidden;
-            border-radius: 4px;
-            */
             a{
                 .img_box{
                     background: #000;
@@ -149,6 +179,7 @@ header{
                     transition: ease .3s;
                     font-weight: bold;
                     font-size: 14px;
+                    color: #000;
                 }
                 .under_line{
                     &:before{
@@ -192,7 +223,7 @@ header{
             list-style: none;
             li{
                 text-align: left;
-                font-size: 20px;
+                font-size: 18px;
                 margin: 5px 0;
                 a{
                     text-decoration: none;
@@ -283,7 +314,7 @@ header{
                 }
             }
         }
-        .top_title{
+        .new_title{
             text-align: left;
             margin: 0 15px;
             h2{

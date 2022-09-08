@@ -59,6 +59,7 @@ header {
 }
 
 .header_menu nav ul li a {
+  color: #000;
   display: block;
   padding: 1.5rem 1rem;
   text-decoration: none;
@@ -81,6 +82,50 @@ header {
   height: 5vh;
 }
 
+.top_container {
+  height: 100vh;
+  position: relative;
+  text-align: center;
+}
+
+.top_container .top_title {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+}
+
+.top_container .top_title h2 {
+  font-size: 35px;
+}
+
+.top_container .top_image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+}
+
+.top_container .top_image img {
+  border-radius: 50%;
+  -webkit-filter: brightness(95%);
+          filter: brightness(95%);
+  width: 200px;
+  height: auto;
+}
+
+.top_container .top_message {
+  font-size: 16px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+  text-align: left;
+}
+
 .about_container {
   height: 100vh;
   position: relative;
@@ -101,10 +146,10 @@ header {
 
 .about_container .about_message p {
   word-break: break-all;
-  max-width: 70%;
   margin-left: auto;
   margin-right: auto;
-  font-size: 20px;
+  text-align: left;
+  font-size: 16px;
 }
 
 .service_container {
@@ -123,16 +168,9 @@ header {
   grid-auto-rows: 1fr;
   grid-gap: 1em;
   padding: 1em;
-}
-
-.service_container .service_box .service_data {
-  /*
-            display: inline-block;
-            width: 25%;
-            height: auto;
-            overflow: hidden;
-            border-radius: 4px;
-            */
+  max-width: 900px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .service_container .service_box .service_data a .img_box {
@@ -185,6 +223,7 @@ header {
   transition: ease .3s;
   font-weight: bold;
   font-size: 14px;
+  color: #000;
 }
 
 .service_container .service_box .service_data .link_box .under_line:before {
@@ -236,7 +275,7 @@ header {
 
 .contact_container .contact_message ul li {
   text-align: left;
-  font-size: 20px;
+  font-size: 18px;
   margin: 5px 0;
 }
 
@@ -366,12 +405,12 @@ header {
   text-align: right;
 }
 
-.main_container .main_content .top_title {
+.main_container .main_content .new_title {
   text-align: left;
   margin: 0 15px;
 }
 
-.main_container .main_content .top_title h2 {
+.main_container .main_content .new_title h2 {
   padding: 0.1rem 0rem;
   margin-bottom: 0.2rem;
   border-bottom: 3px solid #f6ba33;
