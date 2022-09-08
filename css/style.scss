@@ -7,13 +7,8 @@ html {
     color: #fff;
 }
 
-@font-face {
-	font-family: 'MyFont';
-	src: url(../font/Montserrat-VariableFont_wght.ttf);
-}
-
 body{
-    font-family: MyFont, "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+    font-family: 'Montserrat', "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
     background-color: #e7e7e2;
     margin: 0;
 }
