@@ -28,14 +28,14 @@
 	<main class="main_container">
         <div class="main_content">
             <div class="article_container">
-				<?php if( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+		<?php if( have_posts() ) : while ( have_posts() ) : the_post(); ?>
                 <article class="article_data">
                     <a href="<?the_permalink()?>">
                         <div class="img_box">
-							<?if(has_post_thumbnail()){?>
-                            	<img src="<?the_post_thumbnail_url('medium')?>" alt="<?the_title()?>"/>
-							<?}else{?>
-								<img src="https://blog.sumahotektek.com/wp-content/uploads/2021/02/no-image.jpg" alt="<?the_title()?>"><?}?>
+				<?if(has_post_thumbnail()){?>
+                            		<img src="<?the_post_thumbnail_url('medium')?>" alt="<?the_title()?>"/>
+				<?}else{?>
+					<img src="https://blog.sumahotektek.com/wp-content/uploads/2021/02/no-image.jpg" alt="<?the_title()?>"><?}?>
                         </div>
                         <div class="article_content">
                             <h2><?the_title()?></h2>
@@ -43,7 +43,7 @@
                         </div>
                     </a>
                 </article>
-				<?php endwhile; endif; ?>
+		<?php endwhile; endif; ?>
 
                 <article class="article_data">
                     <a href="#">
