@@ -13,6 +13,19 @@ html {
   color: #fff;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e8ffe6;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #57837b;
+}
+
 body {
   font-family: 'Montserrat', "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
   background-color: #e7e7e2;
@@ -488,5 +501,126 @@ header {
 
 .footer_content p {
   margin: 0;
+}
+
+.single_main {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 891px) {
+  .single_main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .single_main {
+    display: box !important;
+  }
+}
+
+.single_main .article_box {
+  background-color: #fefefe;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.single_main .article_box .breadcrumbs {
+  color: #414242;
+  text-decoration: none;
+}
+
+.single_main .article_box .article_title {
+  text-align: left;
+  margin: 0 15px 15px 15px;
+}
+
+.single_main .article_box .article_title h1 {
+  padding: 0.1rem 0rem;
+  margin-bottom: 0.2rem;
+  border-bottom: 3px solid #f6ba33;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.single_main .article_box .article_image {
+  text-align: center;
+}
+
+.single_main .article_box .article_image img {
+  width: 95%;
+  height: auto;
+}
+
+.single_main .article_box .article_sentence {
+  font-size: 16px;
+  padding: 2vw;
+}
+
+.single_main .side_container .admin_info {
+  background-color: #fefefe;
+  border-radius: 15px;
+  margin: 1em;
+  padding-bottom: 2px;
+}
+
+.single_main .side_container .admin_info .admin_top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 15px 0 15px;
+}
+
+.single_main .side_container .admin_info .admin_top .admin_image {
+  margin: 5px;
+}
+
+.single_main .side_container .admin_info .admin_top .admin_image img {
+  border-radius: 50%;
+  -webkit-filter: brightness(95%);
+          filter: brightness(95%);
+  width: 75px;
+  height: auto;
+}
+
+.single_main .side_container .admin_info .admin_top .admin_name {
+  margin-left: 1%;
+  font-weight: bold;
+}
+
+.single_main .side_container .admin_info .admin_description {
+  padding: 0 15px;
+  margin-bottom: 0;
+}
+
+.single_main .side_container .admin_info .portfolio_button {
+  background-color: #57837b;
+  padding: 0 15px 0 15px;
+  width: 120px;
+  border-radius: 10px;
+  margin: 0 0 10px 15px;
+  display: block;
+  text-decoration: none;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.single_main .side_container .admin_info .portfolio_button p {
+  color: #fefefe;
+  margin: 3px 0 5px 0;
+  text-align: center;
+}
+
+.single_main .side_container .admin_info .portfolio_button:hover {
+  background-color: #515e63;
 }
 /*# sourceMappingURL=style.css.map */

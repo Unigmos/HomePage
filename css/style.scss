@@ -7,6 +7,19 @@ html {
     color: #fff;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #e8ffe6;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #57837b;
+}
+
 body{
     font-family: 'Montserrat', "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
     background-color: #e7e7e2;
@@ -382,5 +395,98 @@ header{
     }
     p{
         margin: 0;
+    }
+}
+
+.single_main{
+    @media screen and (min-width: 891px) {
+        display: flex;
+    }
+    @media screen and (max-width: 890px) {
+        display:box !important;
+    }
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    .article_box{
+        background-color: #fefefe;
+        margin-left: auto;
+        margin-right: auto;
+        .breadcrumbs{
+            color: #414242;
+            text-decoration: none;
+        }
+        .article_title{
+            text-align: left;
+            margin: 0 15px 15px 15px;
+            h1{
+                padding: 0.1rem 0rem;
+                margin-bottom: 0.2rem;
+                border-bottom: 3px solid #f6ba33;
+                font-weight: bold;
+                font-size: 26px;
+            }
+        }
+        .article_image{
+            text-align: center;
+            img{
+                width: 95%;
+                height: auto;
+            }
+        }
+        .article_sentence{
+            font-size: 16px;
+            padding: 2vw;
+        }
+    }
+    .side_container{
+        .admin_info{
+            background-color: #fefefe;
+            border-radius: 15px;
+            margin: 1em;
+            padding-bottom: 2px;
+            .admin_top{
+                display: flex;
+                align-items: center;
+                padding: 15px 15px 0 15px;
+                .admin_image{
+                    margin: 5px;
+                    img{
+                        border-radius: 50%;
+                        filter: brightness(95%);
+                        width: 75px;
+                        height: auto;
+                    }
+                }
+                .admin_name{
+                    margin-left: 1%;
+                    font-weight: bold;
+                }
+            }
+            .admin_description{
+                padding: 0 15px;
+                margin-bottom: 0;
+            }
+            .portfolio_button{
+                background-color: #57837b;
+                padding: 0 15px 0 15px;
+                width: 120px;
+                border-radius: 10px;
+                margin: 0 0 10px 15px;
+                display: block;
+                text-decoration: none;
+                transition: all .3s;
+                p{
+                    color: #fefefe;
+                    margin: 3px 0 5px 0;
+                    text-align: center;
+                }
+                &:hover{
+                    background-color: #515e63;
+                }
+            }
+        }
     }
 }
