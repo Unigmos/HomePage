@@ -314,6 +314,7 @@ header{
                         margin-left: 20px;
                         h2{
                             font-size: 20px;
+                            font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
                         }
                         p{
                             text-align: right;
@@ -415,19 +416,30 @@ header{
         margin-left: auto;
         margin-right: auto;
         .breadcrumbs{
-            color: #414242;
-            text-decoration: none;
+            padding-left: 15px;
+            span{
+                text-decoration: none;
+                color: #414242;
+                &:hover{
+                    color: #e95656;
+                }
+            }
         }
         .article_title{
             text-align: left;
-            margin: 0 15px 15px 15px;
+            margin: 0 15px 5px 15px;
             h1{
                 padding: 0.1rem 0rem;
+                margin-top: 0;
                 margin-bottom: 0.2rem;
                 border-bottom: 3px solid #f6ba33;
                 font-weight: bold;
                 font-size: 26px;
             }
+        }
+        .article_date{
+            text-align: right;
+            padding-right: 15px;
         }
         .article_image{
             text-align: center;
