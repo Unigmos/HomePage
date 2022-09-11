@@ -108,7 +108,7 @@
                 <ul>
                     <li><a href="https://twitter.com/intent/follow?screen_name=Shaneron_kijo"><b>Twitter:</b>@shaneron_kijo</a></li>
                     <li><a href="mailto:shaneron@sumahotektek.com"><b>Gmail:</b>shaneron@sumahotektek.com</a></li>
-					<li><a href="https://github.com/Unigmos"><b>GitHub:</b>https://github.com/Unigmos</a></li>
+		<li><a href="https://github.com/Unigmos"><b>GitHub:</b>https://github.com/Unigmos</a></li>
                 </ul>
             </div>
         </div>
