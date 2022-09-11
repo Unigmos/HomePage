@@ -28,14 +28,14 @@
 	<main class="main_container">
         <div class="main_content">
             <div class="article_container">
-		<?php if( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+				<?php if( have_posts() ) : while ( have_posts() ) : the_post(); ?>
                 <article class="article_data">
                     <a href="<?the_permalink()?>">
                         <div class="img_box">
-				<?if(has_post_thumbnail()){?>
-                            		<img src="<?the_post_thumbnail_url('medium')?>" alt="<?the_title()?>"/>
-				<?}else{?>
-					<img src="https://blog.sumahotektek.com/wp-content/uploads/2021/02/no-image.jpg" alt="<?the_title()?>"><?}?>
+							<?if(has_post_thumbnail()){?>
+                                <img src="<?the_post_thumbnail_url('medium')?>" alt="<?the_title()?>"/>
+							<?}else{?>
+								<img src="https://blog.sumahotektek.com/wp-content/uploads/2021/02/no-image.jpg" alt="<?the_title()?>"><?}?>
                         </div>
                         <div class="article_content">
                             <h2><?the_title()?></h2>
@@ -43,19 +43,7 @@
                         </div>
                     </a>
                 </article>
-		<?php endwhile; endif; ?>
-
-                <article class="article_data">
-                    <a href="#">
-                        <div class="img_box">
-                            <img src="https://placehold.jp/1200x630.png"/>
-                        </div>
-                        <div class="article_content">
-                            <h2>タイトル名</h2>
-                            <p>2022-01-01</p>
-                        </div>
-                    </a>
-                </article>
+				<?php endwhile; endif; ?>
             </div>
 
             <div class="top_title" style="text-align: left;margin: 0 15px;">
@@ -90,23 +78,7 @@
         </div>
 
         <div class="side_container">
-            <div class="admin_info">
-                <div class="admin_top">
-                    <div class="admin_image">
-                        <img src="https://pbs.twimg.com/profile_images/1363728876107522053/bORtDFkE_400x400.jpg">
-                    </div>
-                    <div class="admin_name">
-                        <p>Shaneron</p>
-                    </div>
-                </div>
-                <p class="admin_description">
-                    このサイトの作成者兼管理人です。<br>
-                    主にHTMLやPythonをいじっています！
-                </p>
-                <a class="portfolio_button" href="http://localhost/wordpress/wp-content/themes/mysite/portfolio.php">
-                    <p>ポートフォリオ</p>
-                </a>
-            </div>
+            <?php get_template_part('profile'); ?>
         </div>
 	</main>
 	<footer>
