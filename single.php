@@ -10,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shaneron.page</title>
     <link rel="stylesheet" href="http://localhost/wordpress/wp-content/themes/mysite/style.css">
+	<?if(is_singular()){?><style>h2{background:red}</style><?}?>
     <?wp_head();?>
 </head>
 <body>
@@ -38,6 +39,25 @@
             <div class="article_title">
                 <h1><?php the_title(); ?></h1>
             </div>
+			<div class="article_tags">
+				<?php
+				  $category = get_the_category();
+				  $cat_name = $category[0]->cat_name;
+				  // カテゴリー名を表示
+				  echo $cat_name;
+				?>
+				<?php
+					//tag
+					$tagout = '';
+					$posttags = get_the_tags();
+					if( $posttags ){
+						foreach ( $posttags as $tag ) {
+							$tagout .= '<a href="' . get_tag_link( $tag->term_id ) . '">#' . $tag->name . '</a>';
+						}
+					}
+					echo $tagout
+				?>
+			</div>
 			<div class="article_date">
 				<time>
 				公開日:<?php the_time('Y/m/d');?>&emsp;
