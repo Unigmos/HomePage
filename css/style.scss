@@ -167,9 +167,17 @@ header{
             }
             .service_content{
                 h3{
-                    margin: 10px 0px;
+                    margin: 10px 0px 2px 0px;
                     padding: 2px 0px;
                     font-size: 18px;
+                    text-align: left;
+                    //border-bottom: solid 1px #515e63;
+                }
+            }
+            .service_description{
+                p{
+                    margin: 1px 0px;
+                    padding: 2px 0px;
                     text-align: left;
                     border-bottom: solid 1px #515e63;
                 }
