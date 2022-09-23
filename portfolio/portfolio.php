@@ -29,7 +29,7 @@
     <main>
         <div class="top_container" id="top">
             <div class="top_title">
-                <h2>Welcome to Shaneron's portfolio</h2>
+                <h1>Welcome to Shaneron's portfolio</h1>
             </div>
             <div class="top_image">
                 <img src="https://pbs.twimg.com/profile_images/1363728876107522053/bORtDFkE_400x400.jpg">
@@ -66,6 +66,9 @@
                     <div class="service_content">
                         <h3>&nbsp;Shaneron.page</h3>
                     </div>
+					<div class="service_description">
+						<p>&emsp;このサイトです。</p>
+					</div>
                     <div class="link_box">
                         <a class="link_button under_line" href="#">Site</a>
                         <a class="link_button under_line" href="https://github.com/Unigmos/HomePage">GitHub</a>
@@ -79,10 +82,13 @@
                         </div>
                     </a>
                     <div class="service_content">
-                        <h3>&nbsp;TitleText</h3>
+                        <h3>&nbsp;iTract</h3>
                     </div>
+					<div class="service_description">
+						<p>&emsp;IT用語の解説サイトです。</p>
+					</div>
                     <div class="link_box">
-                        <a class="link_button under_line" href="#">Site</a>
+                        <a class="link_button under_line" href="https://it.sumahotektek.com/">Site</a>
                     </div>
                 </div>
 
@@ -95,6 +101,9 @@
                     <div class="service_content">
                         <h3>&nbsp;TitleText</h3>
                     </div>
+					<div class="service_description">
+						<p>&emsp;テスト用</p>
+					</div>
                     <div class="link_box">
                         <a class="link_button under_line" href="#">Site</a>
                     </div>
