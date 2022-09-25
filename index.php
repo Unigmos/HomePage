@@ -9,7 +9,7 @@
     <meta name="author" content="Shaneron">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shaneron.page</title>
-    <link rel="stylesheet" href="http://localhost/wordpress/wp-content/themes/mysite/style.css">
+    <link rel="stylesheet" href="https://shaneron.com/wp-content/themes/shaneron/style.css">
     <?wp_head();?>
 </head>
 <body>
@@ -25,6 +25,7 @@
             </nav>
         </div>
 	</header>
+	<p>現在準備中です！</p>
 	<main class="main_container">
         <div class="main_content">
             <div class="article_container">
@@ -79,7 +80,39 @@
 
         <div class="side_container">
             <?php get_template_part('profile'); ?>
-        </div>
+			
+			<div class="side_cats">
+				<div class="side_cats_title">
+					<h3>カテゴリー</h3>
+				</div>
+				<div class="side_cats_list">
+					<ul>
+						<?php
+						$categories = get_categories();
+						foreach($categories as $category) {
+						echo '<li><a href="'.get_category_link($category->term_id).'">'.$category->name.'</a></li>';
+						}
+						?>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="side_tags">
+				<div class="side_tags_title">
+					<h3>タグ</h3>
+				</div>
+				<div class="side_tags_list">
+					<ul>
+						<?php
+						$tags = get_tags();
+						foreach( $tags as $tag) { 
+						echo '<li><a href="'. get_tag_link($tag->term_id) .'">' . $tag->name . '</a></li>';
+						}
+						?>
+					</ul>
+				</div>
+			</div>
+        </div>
 	</main>
 	<footer>
 		<?wp_footer();?>
