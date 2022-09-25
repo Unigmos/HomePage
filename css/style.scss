@@ -390,6 +390,34 @@ header{
                 }
             }
         }
+        .side_cats{
+            background-color: #fefefe;
+            .side_cats_title{
+                background:#57837b;
+                h3{
+                    color: #fefefe;
+                }
+            }
+            .side_cats_list{
+                ul{
+                    list-style:none;
+                }
+            }
+        }
+        .side_tags{
+            background-color: #fefefe;
+            .side_tags_title{
+                background:#57837b;
+                h3{
+                    color: #fefefe;
+                }
+            }
+            .side_tags_list{
+                ul{
+                    list-style:none;
+                }
+            }
+        }
     }
 }
 
