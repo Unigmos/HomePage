@@ -6,7 +6,7 @@
     <meta name="author" content="Shaneron">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shaneron.page</title>
-    <link rel="stylesheet" href="http://localhost/wordpress/wp-content/themes/mysite/style.css">
+    <link rel="stylesheet" href="https://shaneron.com/wp-content/themes/shaneron/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&family=Montserrat:wght@300&display=swap" rel="stylesheet">
@@ -116,14 +116,14 @@
                 <h2 id="contact">Contact</h2>
                 <ul>
                     <li><a href="https://twitter.com/intent/follow?screen_name=Shaneron_kijo"><b>Twitter:</b>@shaneron_kijo</a></li>
-                    <li><a href="mailto:shaneron@sumahotektek.com"><b>Gmail:</b>shaneron@sumahotektek.com</a></li>
-					<li><a href="https://github.com/Unigmos"><b>GitHub:</b>https://github.com/Unigmos</a></li>
+		    <li><a href="mailto:contact@shaneron.com"><b>Gmail:</b>contact@shaneron.com</a></li>
+		    <li><a href="https://github.com/Unigmos"><b>GitHub:</b>https://github.com/Unigmos</a></li>
                 </ul>
             </div>
         </div>
     </main>
     <footer>
-
+		
     </footer>
 </body>
 </html>
