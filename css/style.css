@@ -30,6 +30,7 @@ body {
   font-family: 'Montserrat', "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
   background-color: #e7e7e2;
   margin: 0;
+  padding: 3%;
 }
 
 header {
@@ -98,7 +99,7 @@ header {
 
 .top_container .top_title {
   position: absolute;
-  top: 30%;
+  top: 25%;
   left: 50%;
   -webkit-transform: translateY(-50%) translateX(-50%);
           transform: translateY(-50%) translateX(-50%);
@@ -127,7 +128,7 @@ header {
 .top_container .top_message {
   font-size: 16px;
   position: absolute;
-  top: 70%;
+  top: 75%;
   left: 50%;
   -webkit-transform: translateY(-50%) translateX(-50%);
           transform: translateY(-50%) translateX(-50%);
@@ -496,34 +497,66 @@ header {
 
 .main_container .side_container .side_cats {
   background-color: #fefefe;
+  border-radius: 15px;
+  margin: 1em;
 }
 
 .main_container .side_container .side_cats .side_cats_title {
   background: #57837b;
+  border-radius: 15px 15px 0 0;
+  padding-left: 5px;
 }
 
 .main_container .side_container .side_cats .side_cats_title h3 {
   color: #fefefe;
+  margin: 0;
 }
 
 .main_container .side_container .side_cats .side_cats_list ul {
   list-style: none;
+  padding: 0 0 0 10px;
+  margin-top: 5px;
+}
+
+.main_container .side_container .side_cats .side_cats_list ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.main_container .side_container .side_cats .side_cats_list ul li a:hover {
+  color: #e95656;
 }
 
 .main_container .side_container .side_tags {
   background-color: #fefefe;
+  border-radius: 15px;
+  margin: 1em;
 }
 
 .main_container .side_container .side_tags .side_tags_title {
   background: #57837b;
+  border-radius: 15px 15px 0 0;
+  padding-left: 5px;
 }
 
 .main_container .side_container .side_tags .side_tags_title h3 {
   color: #fefefe;
+  margin: 0;
 }
 
 .main_container .side_container .side_tags .side_tags_list ul {
   list-style: none;
+  padding: 0 0 0 10px;
+  margin-top: 5px;
+}
+
+.main_container .side_container .side_tags .side_tags_list ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.main_container .side_container .side_tags .side_tags_list ul li a:hover {
+  color: #e95656;
 }
 
 .footer_content {
@@ -566,8 +599,8 @@ header {
 
 .single_main .article_box {
   background-color: #fefefe;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .single_main .article_box .breadcrumbs {
