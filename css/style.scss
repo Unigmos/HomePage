@@ -24,7 +24,6 @@ body{
     font-family: 'Montserrat', "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
     background-color: #e7e7e2;
     margin: 0;
-    padding: 3%;
 }
 
 header{
@@ -49,9 +48,10 @@ header{
             margin: 0;
             li{
                 a{
-                    color: #000;
+                    color: #353f3d;
                     display: block;
-                    padding: 1.5rem 1rem;
+                    //padding: 1.5rem 1rem;
+                    padding: 20px;
                     text-decoration: none;
                     margin-right: 0;
                     transition: all .3s;
@@ -61,7 +61,7 @@ header{
                     }
                 }
             }
-            :nth-last-child(1){
+            &:nth-last-child(1){
                 margin-right: 20px;
             }
         }
@@ -299,6 +299,7 @@ header{
                 padding-right: 20px;
                 a{
                     text-decoration: none;
+                    display: inline-block;
                     .img_box{
                         background: #000;
                         width: 100%;
@@ -347,7 +348,7 @@ header{
     .side_container{
         .admin_info{
             background-color: #fefefe;
-            border-radius: 15px;
+            border-radius: 5px;
             margin: 1em;
             padding-bottom: 2px;
             .admin_top{
@@ -391,62 +392,36 @@ header{
                 }
             }
         }
-        .side_cats{
-            background-color: #fefefe;
-            border-radius: 15px;
-            margin: 1em;
-            .side_cats_title{
-                background:#57837b;
-                border-radius: 15px 15px 0 0;
-                padding-left: 5px;
-                h3{
-                    color: #fefefe;
-                    margin: 0;
-                }
-            }
-            .side_cats_list{
-                ul{
-                    list-style:none;
-                    padding: 0 0 0 10px;
-                    margin-top: 5px;
-                    li{
-                        a{
-                            text-decoration: none;
-                            color: #000;
-                            &:hover{
-                                color: #e95656;
-                            }
-                        }
-                    }
-                }
-            }
+    }
+}
+
+.side_cats_tags{
+    background-color: #fefefe;
+    border-radius: 5px;
+    margin: 1em;
+    padding-bottom: 2px;
+    .side_cats_tags_title{
+        background:#57837b;
+        border-radius: 5px 5px 0 0;
+        padding-left: 10px;
+        h3{
+            color: #fefefe;
+            margin: 0;
         }
-        .side_tags{
-            background-color: #fefefe;
-            border-radius: 15px;
-            margin: 1em;
-            .side_tags_title{
-                background:#57837b;
-                border-radius: 15px 15px 0 0;
-                padding-left: 5px;
-                h3{
-                    color: #fefefe;
-                    margin: 0;
-                }
-            }
-            .side_tags_list{
-                ul{
-                    list-style:none;
-                    padding: 0 0 0 10px;
-                    margin-top: 5px;
-                    li{
-                        a{
-                            text-decoration: none;
-                            color: #000;
-                            &:hover{
-                                color: #e95656;
-                            }
-                        }
+    }
+    .side_cats_tags_list{
+        ul{
+            list-style:none;
+            padding: 0 0 0 5px;
+            margin: 5px;
+            li{
+                border-bottom: 1px solid #d1d8d4;
+                margin-bottom: 3px;
+                a{
+                    text-decoration: none;
+                    color: #000;
+                    &:hover{
+                        color: #e95656;
                     }
                 }
             }
