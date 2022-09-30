@@ -10,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shaneron.page</title>
     <link rel="stylesheet" href="https://shaneron.com/wp-content/themes/shaneron/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <?wp_head();?>
 </head>
 <body>
@@ -25,7 +26,6 @@
             </nav>
         </div>
 	</header>
-	<p>現在準備中です！</p>
 	<main class="main_container">
         <div class="main_content">
             <div class="article_container">
@@ -79,13 +79,11 @@
         </div>
 
         <div class="side_container">
-            <?php get_template_part('profile'); ?>
-			
-			<div class="side_cats">
-				<div class="side_cats_title">
-					<h3>カテゴリー</h3>
+			<div class="side_cats_tags">
+				<div class="side_cats_tags_title">
+					<h3><i class="fa-solid fa-book" style="color: #fefefe;margin-right: 8px;"></i>カテゴリー</h3>
 				</div>
-				<div class="side_cats_list">
+				<div class="side_cats_tags_list">
 					<ul>
 						<?php
 						$categories = get_categories();
@@ -97,11 +95,11 @@
 				</div>
 			</div>
 			
-			<div class="side_tags">
-				<div class="side_tags_title">
-					<h3>タグ</h3>
+			<div class="side_cats_tags">
+				<div class="side_cats_tags_title">
+					<h3><i class="fa-solid fa-tag" style="color: #fefefe;margin-right: 8px;"></i>タグ</h3>
 				</div>
-				<div class="side_tags_list">
+				<div class="side_cats_tags_list">
 					<ul>
 						<?php
 						$tags = get_tags();
@@ -112,11 +110,14 @@
 					</ul>
 				</div>
 			</div>
+			
+			<?php get_template_part('profile'); ?>
+			
         </div>
 	</main>
 	<footer>
 		<?wp_footer();?>
-        	<?php get_footer(); ?>
+        <?php get_footer(); ?>
 	</footer>
 </body>
 </html>
