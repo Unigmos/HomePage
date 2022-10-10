@@ -68,16 +68,7 @@
 </head>
 <body>
 	<header>
-		<div class="header_menu">
-            <nav>
-                <ul>
-                    <li><a href="#top">Top</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#works">Works</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+		<?php get_header(); ?>
 	</header>
 	<main class="single_main">
 		<?php if(have_posts()): ?>
