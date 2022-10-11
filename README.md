@@ -1,2 +1,2 @@
 # HomePage
-<a href="#">Shaneron.com</a>のコードになります！
+<a href="https://shaneron.com/">Shaneron.com</a>のコードになります！
