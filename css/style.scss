@@ -13,16 +13,17 @@ html {
 }
   
 ::-webkit-scrollbar-track {
-    background: #e8ffe6;
+    background: #dcdcdc;
 }
   
 ::-webkit-scrollbar-thumb {
-    background: #57837b;
+    border-radius: 5px;
+    background-color: #969696;
 }
 
 body{
     font-family: 'Montserrat', "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
-    background-color: #e7e7e2;
+    background-color: #e6e6e6;
     margin: 0;
 }
 
@@ -34,8 +35,21 @@ header{
     z-index: 50;
 }
 
+.header_index{
+    background-color: #fefefe;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 50;
+}
+  
+.shadow{
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
 .header_menu{
-    background-color: rgba($color: #57837b, $alpha: 0.7);
+    background-color: rgba($color: #3b65b0, $alpha: 0.7);
     display: flex;
     align-items: center;
     nav{
@@ -56,7 +70,7 @@ header{
                     margin-right: 0;
                     transition: all .3s;
                     &:hover{
-                        background-color: #515e63;
+                        background-color: #3b65b0;
                         color: #fefefe;
                     }
                 }
@@ -286,6 +300,7 @@ header{
     margin-top: 80px;
     margin-bottom: 30px;
     .main_content{
+        padding: 1px;
         .article_container{
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -296,7 +311,8 @@ header{
             margin-left: auto;
             .article_data{
                 background-color: #fefefe;
-                padding-right: 20px;
+                padding: 10px;
+                border-radius: 5px;
                 a{
                     text-decoration: none;
                     display: inline-block;
@@ -305,7 +321,7 @@ header{
                         width: 100%;
                         overflow: hidden;
                         border-radius: 4px;
-                        margin: 10px;
+                        //margin: 10px;
                         img{
                             height: auto;
                             object-fit: cover;
@@ -321,13 +337,23 @@ header{
                     .article_content{
                         color: #000;
                         text-align: left;
-                        margin-left: 20px;
+                        margin: 10px;
                         h2{
                             font-size: 20px;
                             font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+                            margin: 0;
                         }
                         p{
                             text-align: right;
+                            margin: 0;
+                        }
+                    }
+                    &:hover{
+                        .img_box{
+                            img{
+                                transform:scale(1.2,1.2);
+                                opacity: 0.6;
+                            }
                         }
                     }
                 }
@@ -346,52 +372,53 @@ header{
         }
     }
     .side_container{
-        .admin_info{
-            background-color: #fefefe;
-            border-radius: 5px;
-            margin: 1em;
-            padding-bottom: 2px;
-            .admin_top{
-                display: flex;
-                align-items: center;
-                padding: 15px 15px 0 15px;
-                .admin_image{
-                    margin: 5px;
-                    img{
-                        border-radius: 50%;
-                        filter: brightness(95%);
-                        width: 75px;
-                        height: auto;
-                    }
-                }
-                .admin_name{
-                    margin-left: 1%;
-                    font-weight: bold;
-                }
+        .portfolio_button{
+            background-color: #3b65b0;
+            padding: 0 15px 0 15px;
+            width: 120px;
+            border-radius: 10px;
+            margin: 0 0 10px 15px;
+            display: block;
+            text-decoration: none;
+            transition: all .3s;
+            p{
+                color: #fefefe;
+                margin: 3px 0 5px 0;
+                text-align: center;
             }
-            .admin_description{
-                padding: 0 15px;
-                margin-bottom: 0;
-            }
-            .portfolio_button{
-                background-color: #57837b;
-                padding: 0 15px 0 15px;
-                width: 120px;
-                border-radius: 10px;
-                margin: 0 0 10px 15px;
-                display: block;
-                text-decoration: none;
-                transition: all .3s;
-                p{
-                    color: #fefefe;
-                    margin: 3px 0 5px 0;
-                    text-align: center;
-                }
-                &:hover{
-                    background-color: #515e63;
-                }
+            &:hover{
+                background-color: #515e63;
             }
         }
+    }
+}
+
+.admin_info{
+    background-color: #fefefe;
+    border-radius: 5px;
+    margin: 0 1em 1em 1em;
+    padding-bottom: 2px;
+    .admin_top{
+        display: flex;
+        align-items: center;
+        padding: 15px 15px 0 15px;
+        .admin_image{
+            margin: 5px;
+            img{
+                border-radius: 50%;
+                filter: brightness(95%);
+                width: 75px;
+                height: auto;
+            }
+        }
+        .admin_name{
+            margin-left: 1%;
+            font-weight: bold;
+        }
+    }
+    .admin_description{
+        padding: 0 15px;
+        margin-bottom: 0;
     }
 }
 
@@ -401,7 +428,7 @@ header{
     margin: 1em;
     padding-bottom: 2px;
     .side_cats_tags_title{
-        background:#57837b;
+        background:#3b65b0;
         border-radius: 5px 5px 0 0;
         padding-left: 10px;
         h3{
@@ -430,7 +457,7 @@ header{
 }
 
 .footer_content{
-    background-color: #7b908d;
+    background-color: rgba($color: #3b65b0, $alpha: 0.7);
     width: 100%;
     text-align: center;
     padding: 10px;
@@ -457,8 +484,10 @@ header{
     margin-bottom: 30px;
     .article_box{
         background-color: #fefefe;
-        margin-left: 2%;
+        margin-left: 10%;
         margin-right: 2%;
+        padding: 2vw;
+        border-radius: 5px;
         .breadcrumbs{
             padding-left: 15px;
             span{
@@ -494,7 +523,7 @@ header{
                 margin-left: 3px;
                 border-radius: 10px;
                 &:nth-of-type(1){
-                    background-color: rgba($color: #57837b, $alpha: 0.7);
+                    background-color: rgba($color: #3b65b0, $alpha: 0.7);
                 }
             }
         }
@@ -511,54 +540,26 @@ header{
         }
         .article_sentence{
             font-size: 16px;
-            padding: 2vw;
+            //padding: 2vw;
         }
     }
     .side_container{
-        .admin_info{
-            background-color: #fefefe;
-            border-radius: 15px;
-            margin: 1em;
-            padding-bottom: 2px;
-            .admin_top{
-                display: flex;
-                align-items: center;
-                padding: 15px 15px 0 15px;
-                .admin_image{
-                    margin: 5px;
-                    img{
-                        border-radius: 50%;
-                        filter: brightness(95%);
-                        width: 75px;
-                        height: auto;
-                    }
-                }
-                .admin_name{
-                    margin-left: 1%;
-                    font-weight: bold;
-                }
+        .portfolio_button{
+            background-color: #3b65b0;
+            padding: 0 15px 0 15px;
+            width: 120px;
+            border-radius: 10px;
+            margin: 0 0 10px 15px;
+            display: block;
+            text-decoration: none;
+            transition: all .3s;
+            p{
+                color: #fefefe;
+                margin: 3px 0 5px 0;
+                text-align: center;
             }
-            .admin_description{
-                padding: 0 15px;
-                margin-bottom: 0;
-            }
-            .portfolio_button{
-                background-color: #57837b;
-                padding: 0 15px 0 15px;
-                width: 120px;
-                border-radius: 10px;
-                margin: 0 0 10px 15px;
-                display: block;
-                text-decoration: none;
-                transition: all .3s;
-                p{
-                    color: #fefefe;
-                    margin: 3px 0 5px 0;
-                    text-align: center;
-                }
-                &:hover{
-                    background-color: #515e63;
-                }
+            &:hover{
+                background-color: #515e63;
             }
         }
     }
