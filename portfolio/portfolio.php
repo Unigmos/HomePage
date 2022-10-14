@@ -6,6 +6,7 @@
     <meta name="author" content="Shaneron">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shaneron.page</title>
+	<link rel="icon" href="https://shaneron.com/wp-content/themes/shaneron/favicon/page_logo_32x32.ico">
     <link rel="stylesheet" href="https://shaneron.com/wp-content/themes/shaneron/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -47,8 +48,8 @@
                 <h2 id="about">About</h2>
                 <p>
                     &emsp;しゃねろんと言います。普段はお酒片手にYoutubeを見るような大学生ですが、やるときはやるかもしれない男です。<br>
-                    &emsp;言語は主にPythonとHTMLを使用していて、最近はスマホアプリ開発関連でKotlinにも手を出し始めました。<br>
-                    &emsp;良いお酒とライブラリを模索していますー。気軽に接して頂けると嬉しいです、よろしくお願いしますー。
+                    &emsp;言語は主にPythonを使用していて、最近はスマホアプリ開発関連でKotlinにも手を出し始めました。<br>
+					&emsp;良いライブラリとか新しい趣味を探しています。気軽に接して頂けると嬉しいです、よろしくお願いしますー。
                 </p>
             </div>
         </div>
@@ -71,7 +72,7 @@
 						<p>&emsp;このサイトです。</p>
 					</div>
                     <div class="link_box">
-                        <a class="link_button under_line" href="#">Site</a>
+                        <a class="link_button under_line" href="https://shaneron.com/">Site</a>
                         <a class="link_button under_line" href="https://github.com/Unigmos/HomePage">GitHub</a>
                     </div>
                 </div>
@@ -79,7 +80,7 @@
                 <div class="service_data slide_in">
                     <a href="#">
                         <div class="img_box">
-                            <img src="https://placehold.jp/1200x630.png"/>
+                            <img src="https://it.sumahotektek.com/i/it-sumahotektek.png"/>
                         </div>
                     </a>
                     <div class="service_content">
@@ -117,8 +118,8 @@
                 <h2 id="contact">Contact</h2>
                 <ul>
                     <li><i class="fa-brands fa-twitter" style="margin-right:8px"></i><b>Twitter:</b><a href="https://twitter.com/intent/follow?screen_name=Shaneron_kijo">@shaneron_kijo</a></li>
-		    <li><i class="fa-solid fa-envelope" style="margin-right:8px"></i><b>Gmail:</b><a href="mailto:contact@shaneron.com">contact@shaneron.com</a></li>
-		    <li><i class="fa-brands fa-github" style="margin-right:8px"></i><b>GitHub:</b><a href="https://github.com/Unigmos">https://github.com/Unigmos</a></li>
+					<li><i class="fa-solid fa-envelope" style="margin-right:8px"></i><b>Gmail:</b><a href="mailto:contact@shaneron.com">contact@shaneron.com</a></li>
+					<li><i class="fa-brands fa-github" style="margin-right:8px"></i><b>GitHub:</b><a href="https://github.com/Unigmos">https://github.com/Unigmos</a></li>
                 </ul>
             </div>
         </div>
