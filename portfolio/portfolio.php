@@ -118,8 +118,8 @@
                 <h2 id="contact">Contact</h2>
                 <ul>
                     <li><i class="fa-brands fa-twitter" style="margin-right:8px"></i><b>Twitter:</b><a href="https://twitter.com/intent/follow?screen_name=Shaneron_kijo">@shaneron_kijo</a></li>
-					<li><i class="fa-solid fa-envelope" style="margin-right:8px"></i><b>Gmail:</b><a href="mailto:contact@shaneron.com">contact@shaneron.com</a></li>
-					<li><i class="fa-brands fa-github" style="margin-right:8px"></i><b>GitHub:</b><a href="https://github.com/Unigmos">https://github.com/Unigmos</a></li>
+		    <li><i class="fa-solid fa-envelope" style="margin-right:8px"></i><b>Gmail:</b><a href="mailto:contact@shaneron.com">contact@shaneron.com</a></li>
+		    <li><i class="fa-brands fa-github" style="margin-right:8px"></i><b>GitHub:</b><a href="https://github.com/Unigmos">https://github.com/Unigmos</a></li>
                 </ul>
             </div>
         </div>
