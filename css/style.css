@@ -428,7 +428,7 @@ header {
 .main_container .main_content .article_container .article_data a .article_content {
   color: #000;
   text-align: left;
-  margin: 10px;
+  margin: 10px 10px 0 10px;
 }
 
 .main_container .main_content .article_container .article_data a .article_content h2 {
@@ -669,6 +669,7 @@ header {
 }
 
 .single_main .article_box .article_sentence {
+  margin: 0 15px 0 15px;
   font-size: 16px;
 }
 

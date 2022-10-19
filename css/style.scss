@@ -337,7 +337,7 @@ header{
                     .article_content{
                         color: #000;
                         text-align: left;
-                        margin: 10px;
+                        margin: 10px 10px 0 10px;
                         h2{
                             font-size: 20px;
                             font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
@@ -539,6 +539,7 @@ header{
             }
         }
         .article_sentence{
+            margin:0 15px 0 15px;
             font-size: 16px;
             //padding: 2vw;
         }
