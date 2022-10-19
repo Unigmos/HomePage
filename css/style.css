@@ -600,8 +600,7 @@ header {
 
 .single_main .article_box {
   background-color: #fefefe;
-  margin-left: 10%;
-  margin-right: 2%;
+  margin: 0 2% 2% 2%;
   padding: 2vw;
   border-radius: 5px;
 }
