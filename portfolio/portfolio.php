@@ -60,7 +60,7 @@
             </div>
             <div class="service_box">
                 <div class="service_data slide_in">
-                    <a href="#">
+                    <a href="https://shaneron.com/">
                         <div class="img_box">
                             <img src="https://placehold.jp/1200x630.png"/>
                         </div>
@@ -78,7 +78,7 @@
                 </div>
 
                 <div class="service_data slide_in">
-                    <a href="#">
+                    <a href="https://it.sumahotektek.com/">
                         <div class="img_box">
                             <img src="https://it.sumahotektek.com/i/it-sumahotektek.png"/>
                         </div>
@@ -95,20 +95,20 @@
                 </div>
 
                 <div class="service_data slide_in">
-                    <a href="#">
+                    <a href="https://github.com/Unigmos/MyCalc">
                         <div class="img_box">
                             <img src="https://placehold.jp/1200x630.png"/>
                         </div>
                     </a>
                     <div class="service_content">
-                        <h3>&nbsp;TitleText</h3>
+                        <h3>&nbsp;MyCalc</h3>
                     </div>
 					<div class="service_description">
-						<p>&emsp;テスト用</p>
+						<p>&emsp;様々な言語で書いた電卓アプリケーションです。</p>
 					</div>
-                    <div class="link_box">
-                        <a class="link_button under_line" href="#">Site</a>
-                    </div>
+					<div class="link_box">
+						<a class="link_button under_line" href="https://github.com/Unigmos/MyCalc">GitHub</a>
+					</div>
                 </div>
             </div>
         </div>
@@ -118,8 +118,8 @@
                 <h2 id="contact">Contact</h2>
                 <ul>
                     <li><i class="fa-brands fa-twitter" style="margin-right:8px"></i><b>Twitter:</b><a href="https://twitter.com/intent/follow?screen_name=Shaneron_kijo">@shaneron_kijo</a></li>
-		    <li><i class="fa-solid fa-envelope" style="margin-right:8px"></i><b>Gmail:</b><a href="mailto:contact@shaneron.com">contact@shaneron.com</a></li>
-		    <li><i class="fa-brands fa-github" style="margin-right:8px"></i><b>GitHub:</b><a href="https://github.com/Unigmos">https://github.com/Unigmos</a></li>
+					<li><i class="fa-solid fa-envelope" style="margin-right:8px"></i><b>Gmail:</b><a href="mailto:contact@shaneron.com">contact@shaneron.com</a></li>
+					<li><i class="fa-brands fa-github" style="margin-right:8px"></i><b>GitHub:</b><a href="https://github.com/Unigmos">https://github.com/Unigmos</a></li>
                 </ul>
             </div>
         </div>
