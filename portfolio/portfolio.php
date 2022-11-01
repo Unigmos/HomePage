@@ -47,7 +47,7 @@
             <div class="about_message">
                 <h2 id="about">About</h2>
                 <p>
-                    &emsp;しゃねろんと言います。普段はお酒片手にYoutubeを見るような大学生ですが、やるときはやるかもしれない男です。<br>
+					&emsp;しゃねろんと言います。新しい技術やライブラリに触れることが好きな大学生です。<br>
                     &emsp;言語は主にPythonを使用していて、最近はスマホアプリ開発関連でKotlinにも手を出し始めました。<br>
 					&emsp;良いライブラリとか新しい趣味を探しています。気軽に接して頂けると嬉しいです、よろしくお願いしますー。
                 </p>
@@ -110,6 +110,57 @@
 						<a class="link_button under_line" href="https://github.com/Unigmos/MyCalc">GitHub</a>
 					</div>
                 </div>
+				
+				<div class="service_data slide_in">
+                    <a href="https://github.com/Unigmos/TodaysSchedule">
+                        <div class="img_box">
+                            <img src="https://placehold.jp/1200x630.png"/>
+                        </div>
+                    </a>
+                    <div class="service_content">
+                        <h3>&nbsp;TodaysSchedule</h3>
+                    </div>
+					<div class="service_description">
+						<p>&emsp;パソコン起動時に時間割を通知するプログラムです。</p>
+					</div>
+					<div class="link_box">
+						<a class="link_button under_line" href="https://github.com/Unigmos/TodaysSchedule">GitHub</a>
+					</div>
+                </div>
+				
+				<div class="service_data slide_in">
+					<a href="https://github.com/Unigmos/GmailNotify">
+						<div class="img_box">
+                            <img src="https://placehold.jp/1200x630.png"/>
+                        </div>
+                    </a>
+					<div class="service_content">
+						<h3>&nbsp;GmailNotify</h3>
+                    </div>
+					<div class="service_description">
+						<p>&emsp;Gmailからの通知をLINEに送信するプログラムです。</p>
+					</div>
+					<div class="link_box">
+						<a class="link_button under_line" href="https://github.com/Unigmos/GmailNotify">GitHub</a>
+					</div>
+                </div>
+				
+				<div class="service_data slide_in">
+					<a href="https://github.com/Unigmos/ImageDivisionSave">
+						<div class="img_box">
+                            <img src="https://placehold.jp/1200x630.png"/>
+                        </div>
+                    </a>
+					<div class="service_content">
+						<h3>&nbsp;ImageDivisionSave</h3>
+                    </div>
+					<div class="service_description">
+						<p>&emsp;画像の分割保存を行うプログラムです。</p>
+					</div>
+					<div class="link_box">
+						<a class="link_button under_line" href="https://github.com/Unigmos/ImageDivisionSave">GitHub</a>
+					</div>
+                </div>
             </div>
         </div>
 
@@ -117,7 +168,7 @@
             <div class="contact_message">
                 <h2 id="contact">Contact</h2>
                 <ul>
-                    <li><i class="fa-brands fa-twitter" style="margin-right:8px"></i><b>Twitter:</b><a href="https://twitter.com/intent/follow?screen_name=Shaneron_kijo">@shaneron_kijo</a></li>
+					<li><i class="fa-brands fa-twitter" style="margin-right:8px"></i><b>Twitter:</b><a href="https://twitter.com/intent/follow?screen_name=Shaneron_kijo">@shaneron_kijo</a></li>
 					<li><i class="fa-solid fa-envelope" style="margin-right:8px"></i><b>Gmail:</b><a href="mailto:contact@shaneron.com">contact@shaneron.com</a></li>
 					<li><i class="fa-brands fa-github" style="margin-right:8px"></i><b>GitHub:</b><a href="https://github.com/Unigmos">https://github.com/Unigmos</a></li>
                 </ul>
