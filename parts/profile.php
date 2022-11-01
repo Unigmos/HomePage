@@ -11,7 +11,7 @@
         このサイトの作成者兼管理人です。<br>
         主にHTMLやPythonをいじっています！
     </p>
-    <a class="portfolio_button" href="http://localhost/wordpress/wp-content/themes/mysite/portfolio.php">
+    <a class="portfolio_button" href="https://shaneron.com/portfolio/">
         <p>ポートフォリオ</p>
     </a>
 </div>
