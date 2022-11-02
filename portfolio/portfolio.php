@@ -1,4 +1,9 @@
-<!DOCTYPE html>
+<?php
+/*
+Template Name: ポートフォリオ
+*/
+?>
+
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
@@ -57,7 +62,8 @@
         <div class="service_container">
             <div class="service_message">
                 <h2 id="works">Works</h2>
-            </div>
+				<p>過去に開発したサービスを掲載しています。</p>
+            </div>
             <div class="service_box">
                 <div class="service_data slide_in">
                     <a href="https://shaneron.com/">
@@ -97,7 +103,7 @@
                 <div class="service_data slide_in">
                     <a href="https://github.com/Unigmos/MyCalc">
                         <div class="img_box">
-                            <img src="https://placehold.jp/1200x630.png"/>
+                            <img src="https://shaneron.com/wp-content/uploads/MyCalc.png"/>
                         </div>
                     </a>
                     <div class="service_content">
@@ -114,7 +120,7 @@
 				<div class="service_data slide_in">
                     <a href="https://github.com/Unigmos/TodaysSchedule">
                         <div class="img_box">
-                            <img src="https://placehold.jp/1200x630.png"/>
+                            <img src="https://shaneron.com/wp-content/uploads/TodaysSchedule.png"/>
                         </div>
                     </a>
                     <div class="service_content">
@@ -129,9 +135,26 @@
                 </div>
 				
 				<div class="service_data slide_in">
+                    <a href="https://github.com/Unigmos/GridImageMaker">
+                        <div class="img_box">
+                            <img src="https://shaneron.com/wp-content/uploads/GridImageMaker.png"/>
+                        </div>
+                    </a>
+                    <div class="service_content">
+                        <h3>&nbsp;GridImageMaker</h3>
+                    </div>
+					<div class="service_description">
+						<p>&emsp;グリッド風の画像生成プログラムです。</p>
+					</div>
+					<div class="link_box">
+						<a class="link_button under_line" href="https://github.com/Unigmos/GridImageMaker">GitHub</a>
+					</div>
+                </div>
+				
+				<div class="service_data slide_in">
 					<a href="https://github.com/Unigmos/GmailNotify">
 						<div class="img_box">
-                            <img src="https://placehold.jp/1200x630.png"/>
+                            <img src="https://shaneron.com/wp-content/uploads/GmailNotify.png"/>
                         </div>
                     </a>
 					<div class="service_content">
@@ -148,7 +171,7 @@
 				<div class="service_data slide_in">
 					<a href="https://github.com/Unigmos/ImageDivisionSave">
 						<div class="img_box">
-                            <img src="https://placehold.jp/1200x630.png"/>
+                            <img src="https://shaneron.com/wp-content/uploads/ImageDevisionSave.png"/>
                         </div>
                     </a>
 					<div class="service_content">
